@@ -1,0 +1,61 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"android-package\" value=\"com.filfatstudios.spinnerdialog.SpinnerDialog\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ProgressIndicator\"><param name=\"android-package\" value=\"org.apache.cordova.progressindicator.ProgressIndicator\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        },
+        "com.filfatstudios.spinnerdialog": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        },
+        "org.pbernasconi.progressindicator": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.filfatstudios.spinnerdialog/www/SpinnerDialog.js",
+            "id": "com.filfatstudios.spinnerdialog.SpinnerDialog",
+            "clobbers": [
+                "SpinnerDialog"
+            ]
+        },
+        {
+            "file": "plugins/org.pbernasconi.progressindicator/www/progressIndicator.js",
+            "id": "org.pbernasconi.progressindicator.ProgressIndicator",
+            "clobbers": [
+                "ProgressIndicator"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.2.2",
+        "com.filfatstudios.spinnerdialog": "1.0.2",
+        "org.pbernasconi.progressindicator": "1.1.0"
+    }
+}

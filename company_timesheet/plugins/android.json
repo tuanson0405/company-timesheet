@@ -1,0 +1,21 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        },
+        "com.filfatstudios.spinnerdialog": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        },
+        "org.pbernasconi.progressindicator": {
+            "PACKAGE_NAME": "com.companytimesheet"
+        }
+    },
+    "dependent_plugins": {}
+}
