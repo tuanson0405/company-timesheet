@@ -33,7 +33,11 @@ II Chạy ứng dụng.
 
 1. Add platform.
   Terminal:   company-timesheet MAC$ cordova platform add android
+
               company-timesheet MAC$ cordova platform add ios
+              
 2. Chạy ứng dụng:
   Terminal:   company-timesheet MAC$ cordova run android
+
               company-timesheet MAC$ cordova run ios 
+              
